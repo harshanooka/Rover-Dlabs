@@ -7,6 +7,6 @@ location -> Array[x,y] -> Initial location of the Rover on the grid
 <br>
 direction -> "N" / "E" / "W" / "S"
 <br>
-obstacles -> Array of obstacle coordinates
+obstacles -> Array of obstacle coordinates. If ever encountered an obstacle the testRover.encounterObstacle will be true
 <br>
 Example: testRover = new Rover([100,100], [0,0], "N", []);
